@@ -1,0 +1,248 @@
+@font-face {
+    font-family: custom;
+    src: url(../fonts/camcorder_ms_reg_6pre-webfont.ttf);
+}
+
+
+body {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 44px;
+    background: linear-gradient(to left, rgb(126, 169, 144), rgb(202, 166, 186));
+    /* background-image: url(../images/dazzle-1.jpg); */
+    background-size: cover;
+    transition-property: background;
+    transition-duration: 3s;
+    color: white;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(164, 187, 213);
+}
+
+.name {
+    font-family: custom;
+    position: fixed;
+    bottom: 250px;
+    left: 18%;
+    font-size:30px;
+    letter-spacing: 5px;
+    padding: 1px 5px 1px 5px;
+    color: linear-gradient(to right, rgb(126, 169, 144), rgb(202, 166, 186));
+    z-index: 2;
+}
+.pm {
+    bottom: 200px;
+    font-size: 13px;
+}
+.lam {
+    bottom: 220px;
+    font-size: 13px;
+}
+
+.name:hover{
+    color: rgb(133, 196, 159);
+    /* color: lightblue; */
+}
+
+
+.stuff{
+    width: auto;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-bottom:-360px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.247);
+    font-size: 30px;
+    /* position: absolute;
+    top: 300px;
+    left: 300px; */
+}
+
+nav {
+    position: fixed;
+    top: 100px;
+    right: 10%;
+    z-index: 2;
+}
+.nav-item {
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* background: linear-gradient(to right, rgb(126, 169, 144), rgb(202, 166, 186)); */
+    padding: 1px 4px 1px 4px;
+    transition-property: text-transform;
+    transition-duration: 1s;
+}
+
+.tag{
+    color: rgba(107, 255, 124, 0.26)
+}
+
+.nav-item:hover {
+    /* color: lightblue; */
+    color: rgb(215, 179, 199);
+}
+
+
+.ticker {
+    flex-wrap: wrap;
+}
+.ticker-fill {
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.center{
+    margin: 30px;
+    padding:350px;
+    font-size: 60px;
+    background: linear-gradient(to top, rgba(122, 130, 164, 0.4), rgb(200, 202, 166, 0.4));
+    /* background: rgba(122, 130, 164, 0.4); */
+    display: inline-block;
+    /* box-shadow:8px 12px 5px rgba(135, 135, 135, 0.34); */
+    /* transform: perspective(1000px) rotateX(24deg); */
+    transition-property: transform;
+    transition-duration: 1s;
+    
+}
+
+.center:hover {
+    color: rgb(215, 179, 199);
+}
+
+.center-scroll{
+    overflow: scroll;
+    white-space: nowrap;
+    /* transform-origin: 50% 100%; */
+    transform: perspective(1000px) rotateX(25deg);
+    /* transform: rotateX(24deg); */
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+.center-select {
+    overflow: scroll;
+    white-space: nowrap;
+    /* transform-origin: 50% 100%; */
+    transform: perspective(1000px) rotateX(0deg);
+    /* transform: rotateX(24deg); */
+    z-index: 3;
+    height: 1000px;
+}
+
+.side {
+    position: absolute;
+    right: 30px;
+    top: 48%;
+    width: 100%;
+    height: 400px;
+    background: rgba(240, 128, 128, 0.392);
+    color: white;
+    font-size: 18px;
+    overflow: scroll;
+    white-space: normal;
+    padding: 10px;
+
+}
+
+
+
+#self,
+#moodi-cover,
+#rpg-cover,
+#nyt-cover,
+#art-cover,
+#contact-cover
+{
+    width: 100%;
+    height: auto;
+}
+
+.bio-img,
+.moodi-img,
+.rpg-img,
+.nyt-img,
+.art-img,
+.contact-img
+{
+    margin: 30px;
+    padding:25px;
+    /* background-image: url("../images/habitat.jpg");
+    background-repeat: none;
+    background-size: cover; */
+}
+
+.bio-name,
+.moodi-name,
+.rpg-name,
+.nyt-name,
+.art-name,
+.contact-name,
+.side-name
+{
+    position: absolute;
+    margin: 30px;
+    padding:25px;
+    top: 100px;
+    left: -70px;
+    font-family: custom;
+
+}
+
+
+input{
+    width:90%;
+    background: none;
+    border:none;
+    border-bottom: 1px solid white;
+}
+
+button{
+    background:none;
+    border:none;
+}
+button:hover{
+    background:none;
+    border:none;
+    color: white;
+}
+
+@media only screen and (max-width: 560px) {
+    
+    nav {
+        top:2%;
+    }
+
+    .nav-item {
+        margin:10px;
+    }
+
+    .center-select {
+        height: 1000px;
+    }
+
+
+    .side{
+        top: -70%;
+        left: 50px;
+        width: 85%;
+        overflow:auto;
+        height:auto;
+    }
+
+    .side-name{
+        top: -130%;
+        left: 0px;
+    }
+}

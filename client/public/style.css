@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'custom';
+    src: local('custom'), url(./fonts/camcorder_ms_reg_6pre-webfont.ttf), format('truetype');
+}
+
+body {
+    /* font-family: "Overpass Mono","monospace"; */
+    font-size: 44px;
+    background: linear-gradient(to left, rgb(126, 169, 144), rgb(202, 166, 186));
+    background-size: cover;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(164, 187, 213);
+}
+
+
+
+
+
+

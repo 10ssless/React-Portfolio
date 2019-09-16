@@ -1,0 +1,27 @@
+.navbar {
+    /* position: absolute; */
+    top: 110px;
+    right: 10%;
+    width: 400px;
+    float:right;
+    z-index: 2;
+}
+
+
+.nav-item {
+    /* margin: 300px; */
+    float:right;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 1px 4px 1px 4px;
+}
+
+
+/*
+.tag {
+    color: rgba(107, 255, 124, 0.26)
+}
+
+.nav-item:hover {
+    color: rgb(215, 179, 199);
+} */
