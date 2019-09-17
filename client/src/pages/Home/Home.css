@@ -1,5 +1,6 @@
 .main-content{
     height:700px;
+    /* width:800px; */
 }
 
 .name {
@@ -65,6 +66,8 @@
     /* transform: rotateX(24deg); */
     z-index: 1;
     scroll-behavior: smooth;
+    padding-left:100px;
+    padding-right:100px;
 }
 
 .center-select {
@@ -75,4 +78,8 @@
     /* transform: rotateX(24deg); */
     z-index: 3;
     height: 1000px;
+}
+
+.tag {
+    color: rgba(107, 255, 124, 0.26)
 }

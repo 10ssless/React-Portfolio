@@ -1,12 +1,15 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 function Card(props){
 
-    return(           
+    return(      
         <div className="center" id={`center-${props.id}`}>
-            {props.title} 
+            <Link to={"/"+props.title}>
+                {props.title}<span className="tag">{props.tag}</span>
+            </Link>
         </div>
-        // <span class="tag">.app</span>
     )
 }
 
