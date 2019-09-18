@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Sabotage from './pages/Sabotage/Sabotage';
-import Moodi from './pages/Moodi/Moodi';
-import Local from './pages/Local/Local';
-import Contact from './pages/Contact/Contact';
+import About from "./pages/Focus/About";
+import Sabotage from './pages/Focus/Sabotage';
+import Moodi from './pages/Focus/Moodi';
+import Local from './pages/Focus/Local';
+import Contact from './pages/Focus/Contact';
 import './App.css';
 
 function App() {

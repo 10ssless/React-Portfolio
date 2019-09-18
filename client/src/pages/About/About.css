@@ -25,12 +25,7 @@
 
 
 
-#self,
-#moodi-cover,
-#rpg-cover,
-#nyt-cover,
-#art-cover,
-#contact-cover {
+#self {
     width: 100%;
     height: 700px;
 }
