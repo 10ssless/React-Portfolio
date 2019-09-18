@@ -26,6 +26,10 @@ function About() {
                         Zubin Mulji
                     </div>
 
+                    <div className="made-with">
+                        <p><span className="langs">New York, NY</span></p>
+                    </div>
+
                     <div class="side app app-text">
                         <p>
                             Hey, my name is Zubin. I'm a Full Stack Web Developer with a passion for minimalist design and creative interfaces. 
