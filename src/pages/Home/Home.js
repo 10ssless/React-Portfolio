@@ -1,9 +1,9 @@
 import React from 'react';
 // import {CSSTransition, TransitionGroup } from 'react-transition-group'
 import './Home.css';
-import NavTabs from '../../components/NavTabs/NavTabs'
-import Card from '../../components/Card/Card'
-import Pages from '../../pages.json.js'
+import NavTabs from '../../components/NavTabs/NavTabs';
+import Card from '../../components/Card/Card';
+import Pages from '../../pages.json'
 // import ArrowKeysReact from 'arrow-keys-react';
 // const refs = Pages.map(item => {
 //     item.title = createRef()
