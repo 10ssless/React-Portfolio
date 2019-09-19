@@ -35,7 +35,7 @@ function About() {
                             Hey, my name is Zubin. I'm a Full Stack Web Developer with a passion for minimalist design and creative interfaces. 
                         </p><br/>
                         <p>
-                            I'm effective at finding performance-optimized solutions and building eye-catching fron-end UI.
+                            I'm effective at finding performance-optimized solutions and building eye-catching front-end UI.
                         </p><br/>
                         <p>
                             I'm a helpful collaborator, able to tackle complex logical problems, and resourceful when confronting new challenges.
