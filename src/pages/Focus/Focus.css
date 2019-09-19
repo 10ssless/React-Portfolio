@@ -74,8 +74,8 @@ button:hover {
     right:60px;
 }
 
-.made-with {
-    font-size: 16px;
+.made-with,.test-user {
+    font-size: 17px;
     color: rgb(255, 255, 255);
     float: left;
     clear: both;
@@ -84,13 +84,30 @@ button:hover {
     font-style: italic;
 }
 
-.made-with>p {
+.made-with>p, .test-user>p {
     margin-bottom: 0px;
 }
+
+.test-user{
+    color:rgb(220, 220, 220);
+    position: absolute;
+    left:400px;
+    bottom: 30px;
+    /* border: lightgray 1px solid; */
+    padding:2px 6px 2px 6px;
+    /* box-shadow: -5px 0px 0px rgba(211, 211, 211, 0.185); */
+}
+
+.test-user-body{
+    /* margin-left:24px; */
+}
+
 
 .langs {
     color: rgb(163, 220, 255);
 }
+
+
 
 label {
     margin-bottom: 0px;
@@ -124,4 +141,8 @@ textarea::placeholder {
 
 #contact-submit:hover {
     color: rgb(189, 214, 244);
+}
+
+.app-link {
+    font-size: 25px;
 }

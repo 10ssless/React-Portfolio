@@ -26,20 +26,16 @@ function Contact() {
                     </div>
 
                     <div className="made-with">
-                        <p>for all personal/professional inquiries</p>
-                        <p>send me a message via the form below</p>
+                        <p>for all personal/professional inquiries...</p> 
                     </div>
 
                     <div class="side app app-text">
-                        <form>
-                            <label>your name</label><br/>
-                            <input type="text" name="name" placeholder="Elon Musk"/><br/>
-                            <label>subject</label><br/>
-                            <input type="text" name="subject" placeholder="We're hiring!"/><br/>
-                            <label>message</label><br/>
-                            <textarea type="text" name="content" placeholder="SpaceX needs a new website. Are you in??"/><br/>
-                            <button type="submit" id="contact-submit">send</button>
-                        </form>
+                        <br/><br/><br/><br/>
+                        {/* <br/><br/><br/><br/> */}
+                        <p className="app-link">> Email: <a href="mailto:znmulji1@gmail.com"><span className="langs">znmulji1@gmail.com</span></a></p>
+                        <p className="app-link">> GitHub: <a href="https://github.com/10ssless/" target="_blank"><span className="langs">https://github.com/10ssless/</span></a></p>
+                        <p className="app-link">> LinkedIn: <a href="https://www.linkedin.com/in/zubin-mulji" target="_blank"><span className="langs">https://www.linkedin.com/in/zubin-mulji</span></a></p>
+
                     </div>
                 </div>
             </div>

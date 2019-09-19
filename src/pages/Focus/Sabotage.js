@@ -34,12 +34,12 @@ function Sabotage() {
                     <div className="side app app-text">
                         <p>SABOTAGE is a React web game that penalizes users for wasting time on it.</p><br/>
                         <p>All screen time is deducted from your score from the moment you log in.</p>
-                        <p>Win points back by playing the game.</p>
+                        <p>Win points back by playing the solving the puzzle.</p>
                         <p>Spin the bonus wheel for a surprise.</p>
                         <p>Compare your scores with friends on the leaderboard in real-time.</p><br/>
                         
                         <br/><br/>
-                        <a href="https://sabotage-game.herokuapp.com/" target="_blank">click here try out the app</a>
+                        <a href="https://sabotage-game.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>
                          
                     </div>
                 </div>

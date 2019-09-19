@@ -36,10 +36,16 @@ function Local() {
 
                         <p>Login/sign up to start browsing local, DIY events, message other users, or post your own events.</p>
                         <p>Results are limited to a 30 miles raidus of your current location.</p> 
-                        <p>To preserve the culture and trust of the network, you must have a referral code to join. Existing can users can generate a new referral code every 3 days.</p><br/>
-                        
+                        <p>To preserve the culture and trust of the network, you must have a referral code to join. Existing can users can generate a new referral code every 3 days.</p>
                         <br/><br/>
-                        <a href="https://keep-it-local.herokuapp.com/" target="_blank">click here try out the app</a>
+                        
+                        <div className="test-user">
+                            <p>>> test user login info:</p>
+                            <p className="test-user-body">user: <span className="langs">username</span></p>
+                            <p className="test-user-body">pswd: <span className="langs">password</span></p>
+                        </div>
+                        
+                        <a href="https://keep-it-local.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>
                         <br/><br/>
                     </div>
                 </div>

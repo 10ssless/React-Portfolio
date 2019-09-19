@@ -10,7 +10,7 @@ function About() {
             <div className="row center-select">
                 <div className="col-md-6">
                     <div className="center app app-img">
-                        <img src="./images/me.jpg" id="app-cover"/>
+                        <img src="./images/linkedin.jpg" id="app-cover"/>
                     </div>
                 </div>
 
