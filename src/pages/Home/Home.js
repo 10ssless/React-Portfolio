@@ -63,7 +63,7 @@ class Home extends React.Component {
                 <NavTabs />
                 {/* <NavTabs onClick={() => this.clickToScroll}/> */}
                 <div className="center-scroll" >
-                        <span id="swipe-left" style={{color:this.state.color}}>swipe left > > ></span>
+                        
                         {this.state.pages.map(item => {
                             return(
                                 <Card 
@@ -82,7 +82,8 @@ class Home extends React.Component {
                 <div className="name lam">Full Stack Web Developer</div>
                 <div className="name pm">Made with React®</div>
 
-                
+                <div className="swipe-left" style={{color:this.state.color}}>&#60; &#60; swipe > > </div>
+
                 {/* center-scroll OR center-select append here */}
                 
             </div>
