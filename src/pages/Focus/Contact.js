@@ -10,7 +10,7 @@ function Contact() {
              <div class="row center-select">
                 <div class="col-md-6">
                     <div class="center app app-img">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Salto_del_Angel-Canaima-Venezuela08.JPG" id="app-cover"/>
+                        <img src="./images/mark_dorf.jpg" id="app-cover"/>
                     </div>
                 </div>
                 <div class="col-md-6">

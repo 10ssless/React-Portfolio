@@ -36,7 +36,7 @@ function Local() {
 
                         <p>Login/sign up to start browsing local, DIY events, message other users, or post your own events.</p>
                         <p>Results are limited to a 30 miles raidus of your current location.</p> 
-                        <p>To preserve the culture and trust of the network, you must have a referral code to join. Existing can users can generate a new referral code every 3 days.</p>
+                        <p>To preserve the culture and trust of the network, you must have a referral code to join. Existing users can generate a new referral code every 3 days.</p>
                         <br/><br/>
                         
                         <div className="test-user">

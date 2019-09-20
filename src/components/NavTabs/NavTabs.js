@@ -32,7 +32,7 @@ function NavTabs (props){
                         </span>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <Link class="dropdown-item" to="/sabotage">Sabotage</Link>
-                            <Link class="dropdown-item" to="/keep-it-local">Keep-It-Local</Link>
+                            <Link class="dropdown-item" to="/keep-it-local">Keep It Local</Link>
                             <Link class="dropdown-item" to="/moodi">Moodi</Link>
                         </div>
                     </li>
