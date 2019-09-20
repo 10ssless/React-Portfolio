@@ -48,7 +48,7 @@
     /* transform: perspective(1000px) rotateX(24deg); */
     transition-property: transform;
     transition-duration: 1s;
-
+    z-index:3;
 }
 
 .center-card:hover {
@@ -102,16 +102,21 @@
 
 }
 
+#swipe-left{
+    display: none;
+}
+
 @media only screen and (max-width: 375px) {
 
     .center-card{
         font-size: 40px;
         padding: 200px;
+        border: 0.1px solid rgb(133, 196, 159, 0.3)
     }
 
     .center-scroll{
         top:14%;
-        padding-left:0px;
+        padding-left:50px;
         padding-right:0px;
         height: 100%;
     }
@@ -119,7 +124,7 @@
     .name {
         position: fixed;
         top: 5%;
-        left: 18%;
+        left: 13%;
         font-size: 30px;
     }
 
@@ -135,6 +140,11 @@
         font-size: 13px;
     }
 
-    
+    #swipe-left {
+        display: inline-block;
+        font-size:20px;
+        margin-right:50px;
+        z-index:2;
+    }
 
 }
