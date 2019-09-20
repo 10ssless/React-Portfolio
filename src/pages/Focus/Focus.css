@@ -10,10 +10,10 @@
 
 .side {
     position: absolute;
-    right: 30px;
+    right: 3.4%;
     top: 38%;
     width: 100%;
-    height: 400px;
+    height: 40%;
     background: rgba(240, 128, 128, 0.392);
     color: white;
     font-size: 18px;
@@ -85,6 +85,9 @@ button:hover {
     margin-top: 230px;
     margin-left: -27px;
     font-style: italic;
+    overflow: wrap;
+    white-space: normal;
+    padding:10px;
 }
 
 .made-with>p, .test-user>p {
@@ -155,3 +158,187 @@ textarea::placeholder {
 .app-link {
     font-size: 25px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+        overflow: scroll;
+    }
+
+    .back-home {
+        position: fixed;
+        top: 30px;
+        right: 60px;
+    }
+
+    .app-name {
+        /* font-size: 30px; */
+        position: fixed;
+        top: 30px;
+        left: 0px;
+    }
+
+    .made-with{
+        /* font-size: 12px; */
+        position: fixed;
+        top: -10%;
+        left:4.5%;
+        padding:50px;
+    }
+
+    .app-img{
+        position: absolute;
+        top:50%;
+        width:88%;
+    }
+
+    .app-text {
+        position: absolute;
+        top: 98%;
+        right:6%;
+        width:88%;
+    }
+
+    .side {
+        height:auto;
+        overflow: auto;
+        margin-bottom:30px;
+        padding:30px;
+    }
+
+    .test-user{
+        margin-top: -40px;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+
+    .app-link {
+        font-size: 25px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 530px) {
+    
+    body {
+        overflow: scroll;
+    }
+
+    .back-home {
+        position: fixed;
+        top: 30px;
+        right: 60px;
+    }
+
+    .app-name {
+        /* font-size: 30px; */
+        position: fixed;
+        top: 30px;
+        left: 0px;
+    }
+
+    .made-with{
+        /* font-size: 12px; */
+        position: fixed;
+        top: -10%;
+        left:4.5%;
+        padding:50px;
+    }
+
+    .app-img{
+        position: absolute;
+        top:53%;
+        width:88%;
+    }
+
+    .app-text {
+        font-size: 16px;    
+        position: absolute;
+        top: 60%;
+        right:4%;
+        width:88%;
+    }
+
+    .side {
+        height:auto;
+        overflow: auto;
+        margin-bottom:30px;
+        padding:30px;
+    }
+
+    .test-user{
+        margin-top: -18%;
+        margin-right: 0%;
+        font-size: 15px;
+    }
+
+    .app-link {
+        font-size: 23px;
+    }
+    
+    
+}
+@media only screen and (max-width: 375px) {
+    
+    body {
+        overflow: scroll;
+    }
+
+    .back-home {
+        font-size: 13px;
+        position: fixed;
+        top: 30px;
+        right: 40px;
+    }
+
+    .app-name {
+        font-size: 30px;
+        position: fixed;
+        top: 30px;
+        left: 0px;
+    }
+
+    .made-with{
+        font-size: 12px;
+        position: fixed;
+        top: -12%;
+        left:50px;
+        padding:30px;
+    }
+
+    .app-img{
+        position: absolute;
+        top:39%;
+        width:80%;
+    }
+
+    .app-text {
+        font-size: 15px;
+        position: absolute;
+        top: 13%;
+        left:10%;
+        width:80%;
+    }
+
+    .side {
+        height:auto;
+        overflow: auto;
+        margin-bottom:30px;
+        padding:30px;
+    }
+
+    .test-user{
+        margin-top: -26%;
+        margin-right: 0%;
+        font-size:12px;
+    }
+    
+    .app-link {
+        font-size: 17px;
+        
+    }
+    
+}
+
