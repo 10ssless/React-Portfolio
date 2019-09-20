@@ -20,12 +20,11 @@ class Home extends React.Component {
     }
 
     componentDidMount(){
-        // this.setState({
-            
-        // })
+        this.setState({
+            pages: Pages,    
+        })
         setTimeout(() => {
             this.setState({
-                pages: Pages,
                 color: "white",
             })
         },1000)
