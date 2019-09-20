@@ -24,7 +24,7 @@ function NavTabs (props){
 
 
         <nav class="navbar navbar-expand-sm">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            {/* <div class="collapse navbar-collapse" id="navbarNavDropdown"> */}
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,7 +43,7 @@ function NavTabs (props){
                         <Link class="nav-link" to="/contact" >Contact</Link>
                     </li>
                 </ul>
-            </div>
+            {/* </div> */}
         </nav>
 
 

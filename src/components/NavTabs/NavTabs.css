@@ -45,3 +45,36 @@
     background:rgba(255, 255, 255, 0.438);
     padding-left:12px;
 }
+
+@media only screen and (max-width: 575px) {
+
+    .navbar {
+        position: fixed;
+        top: 2%;
+        right:-30%
+    }
+
+    .navbar ul {
+        display: inline;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .navbar {
+        display: none;
+        position: fixed;
+        top: 20%;
+        right:-47%
+    }
+
+    .navbar ul {
+        display: inline;
+    }
+
+
+
+}
