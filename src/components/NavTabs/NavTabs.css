@@ -1,10 +1,11 @@
 .navbar {
     /* position: absolute; */
-    top: 110px;
-    right: -1%;
-    width: 500px;
+    top: 125px;
+    right: 10%;
+    width: 300px;
     float:right;
     z-index: 2;
+    transform: perspective(400px) rotateX(34deg);
 }
 
 
@@ -62,7 +63,7 @@
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 575px) {
 
     .navbar {
         display: none;

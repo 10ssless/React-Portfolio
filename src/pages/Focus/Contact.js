@@ -30,12 +30,12 @@ function Contact() {
                     </div>
 
                     <div class="side app app-text">
-                        <br/><br/><br/><br/>
+                        <br/><br/>
                         {/* <br/><br/><br/><br/> */}
                         <p className="app-link">> Email: <a href="mailto:znmulji1@gmail.com"><span className="langs">znmulji1@gmail.com</span></a></p>
                         <p className="app-link">> GitHub: <a href="https://github.com/10ssless/" target="_blank"><span className="langs">https://github.com/10ssless/</span></a></p>
                         <p className="app-link">> LinkedIn: <a href="https://www.linkedin.com/in/zubin-mulji" target="_blank"><span className="langs">https://www.linkedin.com/in/zubin-mulji</span></a></p>
-
+                        <br/><br/>
                     </div>
                 </div>
             </div>

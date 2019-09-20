@@ -13,6 +13,10 @@
     color: linear-gradient(to right, rgb(126, 169, 144), rgb(202, 166, 186));
     z-index: 2;
     text-transform: uppercase;
+    transform: perspective(300px) rotateX(34deg);
+    text-shadow: 1px 4px 0px rgb(133, 196, 159, 0.3);
+    transition-property: text-shadow,color;
+    transition-duration: 1.5s;
 }
 
 .zm {
@@ -23,16 +27,19 @@
     letter-spacing: .2em;
     bottom: 200px;
     font-size: 13px;
+    text-shadow:none;
 }
 
 .lam {
     letter-spacing: .2em;
     bottom: 220px;
     font-size: 13px;
+    text-shadow:none;
 }
 
-.name:hover {
+.zm:hover {
     color: rgb(133, 196, 159);
+    text-shadow: none;
     /* color: lightblue; */
 }
 
@@ -45,14 +52,17 @@
     /* background: rgba(122, 130, 164, 0.4); */
     display: inline-block;
     /* box-shadow:8px 12px 5px rgba(135, 135, 135, 0.34); */
-    /* transform: perspective(1000px) rotateX(24deg); */
-    transition-property: background;
+    /* transform: perspective(500px) rotateX(24deg); */
+    box-shadow: 8px 16px 2px rgb(133, 196, 159, 0.3);
+    transition-property: background,color,box-shadow;
     transition-duration: 1s;
     z-index:3;
 }
 
 .center-card:hover {
-    color: rgb(215, 179, 199);
+    background: rgb(215, 179, 199, 0.7);
+    box-shadow: 0px 0px 0px rgb(133, 196, 159, 0.3);
+    /* background: rgb(215, 179, 199); */
 }
 
 .center-scroll {
@@ -62,7 +72,7 @@
     overflow: scroll;
     white-space: nowrap;
     /* transform-origin: 50% 100%; */
-    transform: perspective(1000px) rotateX(25deg);
+    transform: perspective(1100px) rotateX(35deg);
     /* transform: rotateX(24deg); */
     z-index: 1;
     scroll-behavior: smooth;
@@ -87,7 +97,11 @@
     color: rgba(107, 255, 124, 0.26)
 }
 
+#swipe-left {
+    display: none;
+}
 
+/* 
 @media only screen and (max-width: 575px) {
 
     .center-card{
@@ -100,24 +114,28 @@
         padding-right: 50px;
     }
 
-}
+} */
 
-#swipe-left{
-    display: none;
-}
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 575px) {
 
     .center-card{
         font-size: 40px;
-        padding: 200px;
-        box-shadow: 1px 1px 1px rgb(133, 196, 159, 0.3);
+        padding: 50%;
+        box-shadow: 6px 12px 2px rgb(133, 196, 159, 0.3);
         background: linear-gradient(to top, rgba(122, 130, 164, 0.4), rgb(200, 202, 166, 0.4));
+    }
+
+    .center-card:hover {
+        background: rgb(215, 179, 199, 0.7);
+        /* background: rgb(215, 179, 199); */
+        /* background: linear-gradient(to top, rgb(215, 179, 199), rgb(145, 120, 134)); */
+        box-shadow: 0px 0px 0px rgb(133, 196, 159, 0.3);
     }
 
     .center-scroll{
         top:14%;
-        padding-left:120px;
+        padding-left:140px;
         padding-right:0px;
         height: 80%;
     }
@@ -128,6 +146,10 @@
         left: 13%;
         font-size: 30px;
         height:40px;
+        transform: perspective(300px) rotateX(44deg);
+        text-shadow: 1px 4px 0px rgb(133, 196, 159, 0.3);
+
+
     }
 
     .lam {
@@ -145,8 +167,9 @@
     #swipe-left {
         display: inline-block;
         font-size:20px;
-        margin-right:100px;
+        margin-right:120px;
         z-index:2;
+        transform: perspective(400px) rotateX(34deg);
         transition-property: color;
         transition-duration: 1.5s;
     }

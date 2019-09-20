@@ -27,8 +27,8 @@ class Home extends React.Component {
             this.setState({
                 color: "white",
             })
+            this.interval = setInterval(() => this.fadeToggle(), 2500);
         },1000)
-        this.interval = setInterval(() => this.fadeToggle(), 2500);
     }
 
     fadeToggle(){
