@@ -14,14 +14,38 @@ class Home extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            pages:[]
+            pages:[],
+            color:"transparent"
         }   
     }
 
     componentDidMount(){
-        this.setState({
-            pages:Pages
-        })
+        // this.setState({
+            
+        // })
+        setTimeout(() => {
+            this.setState({
+                pages: Pages,
+                color: "white",
+            })
+        },1000)
+        this.interval = setInterval(() => this.fadeToggle(), 2500);
+    }
+
+    fadeToggle(){
+        if(this.state.color=="white"){
+            this.setState({
+                color:"transparent"
+            })
+        } else {
+            this.setState({
+                color:"white"
+            })
+        }
+    }
+
+    componentDidUnmount(){
+        clearInterval(this.interval)
     }
 
     
@@ -40,7 +64,7 @@ class Home extends React.Component {
                 <NavTabs />
                 {/* <NavTabs onClick={() => this.clickToScroll}/> */}
                 <div className="center-scroll" >
-                        <span id="swipe-left">swipe left > > ></span>
+                        <span id="swipe-left" style={{color:this.state.color}}>swipe left > > ></span>
                         {this.state.pages.map(item => {
                             return(
                                 <Card 

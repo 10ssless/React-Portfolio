@@ -111,12 +111,13 @@
     .center-card{
         font-size: 40px;
         padding: 200px;
-        border: 0.1px solid rgb(133, 196, 159, 0.3)
+        box-shadow: 1px 1px 1px rgb(133, 196, 159, 0.3);
+        background: linear-gradient(to top, rgba(122, 130, 164, 0.4), rgb(200, 202, 166, 0.4));
     }
 
     .center-scroll{
         top:14%;
-        padding-left:50px;
+        padding-left:120px;
         padding-right:0px;
         height: 100%;
     }
@@ -143,8 +144,10 @@
     #swipe-left {
         display: inline-block;
         font-size:20px;
-        margin-right:50px;
+        margin-right:100px;
         z-index:2;
+        transition-property: color;
+        transition-duration: 1s;
     }
 
 }
