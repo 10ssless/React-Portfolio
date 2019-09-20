@@ -10,7 +10,9 @@ function Sabotage() {
              <div className="row center-select">
                 <div className="col-md-6">
                     <div className="center app app-img">
-                        <img src="./images/sabotage.png" id="app-cover"/>
+                        <a href="https://sabotage-game.herokuapp.com/" target="_blank" className="app-link">                        
+                            <img src="./images/sabotage.png" id="app-cover"/>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -38,7 +40,7 @@ function Sabotage() {
                         <p>Spin the bonus wheel for a surprise.</p>
                         <p>Compare your scores with friends on the leaderboard in real-time.</p><br/>
                         
-                        <br/><br/>
+                        <br/>
                         <a href="https://sabotage-game.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>
                          
                     </div>

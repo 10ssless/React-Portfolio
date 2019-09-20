@@ -16,7 +16,7 @@
     transform: perspective(300px) rotateX(34deg);
     /* text-shadow: 1px 4px 0px rgb(133, 196, 159, 0.3); */
     transition-property: text-shadow,color;
-    transition-duration: 1.5s;
+    transition-duration: 1.5s;  
 }
 
 .zm {

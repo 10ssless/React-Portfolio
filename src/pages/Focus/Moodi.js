@@ -10,7 +10,9 @@ function Moodi() {
              <div class="row center-select">
                 <div class="col-md-6">
                     <div class="center app app-img">
-                        <img src="./images/moodi.png" id="app-cover"/>
+                        <a href="https://10ssless.github.io/Project-Moodi/" target="_blank" className="app-link">
+                            <img src="./images/moodi.png" id="app-cover" />
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -36,7 +38,7 @@ function Moodi() {
                             entirely different space.</p><br/>
                         <p> Explore the possibilities and find easter eggs as you listen and relax.</p><br/>
                         
-                        <br/><br/><br/>
+                        <br/><br/>
                         <a href="https://10ssless.github.io/Project-Moodi/" target="_blank" className="app-link">> click here to try out the app</a>
                     </div>
                 </div>
