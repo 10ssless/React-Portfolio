@@ -292,6 +292,10 @@ textarea::placeholder {
     body {
         overflow: scroll;
     }
+    
+    .center-select{
+        transform: perspective(1000px) rotateX(20deg);
+    }
 
     .back-home {
         font-size: 13px;

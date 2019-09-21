@@ -1,0 +1,79 @@
+[
+    {
+        "title":"about",
+        "tag":".me",
+        "img": "./images/portrait.jpeg",
+        "made": "<p><span className='langs'>New York, NY</span></p>",
+        "text": "<p>Hey, my name is Zubin. I'm a Full Stack Web Developer with a passion for minimalist design and creative interfaces.</p><br/>
+                <p>I'm effective at finding performance-optimized solutions and building eye-catching front-end UI.</p><br/>
+                <p>I'm a helpful collaborator, able to tackle complex logical problems, and resourceful when confronting new challenges.</p><br/>
+                <p>In my spare time, I record and produce music for artists and friends.</p><br/>"
+    },
+    {
+        "title":"sabotage",
+        "tag":".app",
+        "img": "./images/sabotage.png",
+        "link":"https://sabotage-game.herokuapp.com/",
+        "made":"<p>Made with: <span className='langs'>ReactJS, NodeJS, Express, MongoDB/Mongoose, JavaScript ES6, HTML5, CSS3</span></p>
+                    <p>Support packages: <span className='langs'>Pusher, Passport, Material-UI, Moment</span></p>",
+        "text":"<p>SABOTAGE is a React web game that penalizes users for wasting time on it.</p><br/>
+                <p>All screen time is deducted from your score from the moment you log in.</p>
+                <p>Win points back by playing the solving the puzzle.</p>
+                <p>Spin the bonus wheel for a surprise.</p>
+                <p>Compare your scores with friends on the leaderboard in real-time.</p><br/>
+                
+                <br/>
+                <a href='https://sabotage-game.herokuapp.com/' target='_blank' className='app-link'>> click here try out the app</a>"
+    },
+    {
+        "title":"keep-it-local",
+        "tag":".app",
+        "img": "./images/keep-it-local.png",
+        "link": "https://keep-it-local.herokuapp.com/",
+        "made":"<p>Made with: <span className='langs'>NodeJS, Express, MySQL/Sequelize, Handlebars, JavaScript, HTML5, CSS3</span></p>
+                <p>Support packages: <span className='langs'>Passport, Materialize, Moment, Geocoder</span></p>",
+        "text":"<p>KEEP IT LOCAL® is a tool to help people better connect with their local communities.</p>
+                <p>This app is for independent creatives to build scenes and find audiences.</p><br/>
+
+                <p>Login/sign up to start browsing local, DIY events, message other users, or post your own events.</p>
+                <p>Results are limited to a 30 miles raidus of your current location.</p> 
+                <p>To preserve the culture and trust of the network, you must have a referral code to join. Existing users can generate a new referral code every 3 days.</p>
+                <br/>
+                        
+                <div className='test-user'>
+                <p>>> test user login info:</p>
+                <p className='test-user-body'>pswd: <span className='langs'>password</span></p>
+                <p className='test-user-body'>user: <span className='langs'>username</span></p>
+                </div>
+                        
+                <a href='https://keep-it-local.herokuapp.com/' target='_blank' className='app-link'>> click here try out the app</a>
+                <br/>"
+    },
+    {
+        "title":"moodi",
+        "tag":".app",
+        "img":"./images/moodi.png",
+        "link": "https://10ssless.github.io/Project-Moodi/",
+        "made":"<p>Made with: <span className='langs'>JavaScript, jQuery, HTML, CSS</span></p>
+                <p>Support packages: <span className='langs'>Audio, REST APIs, AJAX</span></p>",
+        "text":"<p>MOODI is a minimalist image and sound-based relaxation application.</p><br/>
+                <p>Click on any descriptive tag to go to a new sonic environment. Click a second tag to evoke an
+                    entirely different space.</p><br/>
+                <p> Explore the possibilities and find easter eggs as you listen and relax.</p><br/>
+                        
+                <br/><br/>
+                <a href='https://10ssless.github.io/Project-Moodi/' target='_blank' className='app-link'>> click here to try out the app</a>"
+    },
+    {
+        "title":"contact",
+        "tag": ".me",
+        "img": "./images/mark_dorf.jpg",
+        "made": "<p>for all personal/professional inquiries...</p> ",
+        "text": "<br/><br/>
+                <p className='app-link'>> Email: <a href='mailto:znmulji1@gmail.com'><span className='langs'>znmulji1@gmail.com</span></a></p>
+                <p className='app-link'>> GitHub: <a href='https://github.com/10ssless/' target='_blank'><span className='langs'>https://github.com/10ssless/</span></a></p>
+                <p className='app-link'>> LinkedIn: <a href='https://www.linkedin.com/in/zubin-mulji' target='_blank'><span className='langs'>https://www.linkedin.com/in/zubin-mulji</span></a></p>
+                <br/><br/>"
+    }
+
+]

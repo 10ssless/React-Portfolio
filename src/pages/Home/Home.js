@@ -15,22 +15,29 @@ class Home extends React.Component {
         super(props)
         this.state = {
             pages:[],
-            color:"transparent"
+            color:"transparent" //,
+            // width: 0,
+            // height: 0
         }   
+        // this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
-    componentDidMount(){
+    componentDidMount() {
+        // window.addEventListener('resize', this.updateWindowDimensions);
+        // this.updateWindowDimensions();
         this.setState({
-            pages: Pages,    
+            pages: Pages,
         })
-        setTimeout(() => {
-            this.setState({
-                color: "white",
-            })
-            this.interval = setInterval(() => this.fadeToggle(), 2500);
-        },1000)
+        // if(this.state.width<575){
+            setTimeout(() => {
+                this.setState({
+                    color: "white",
+                })
+                this.interval = setInterval(() => this.fadeToggle(), 2500);
+            }, 1000)
+        // }
     }
-
+    
     fadeToggle(){
         if(this.state.color=="white"){
             this.setState({
@@ -43,9 +50,20 @@ class Home extends React.Component {
         }
     }
 
+    // updateWindowDimensions() {
+    //     this.setState({
+    //         width: window.innerWidth,
+    //         height: window.innerHeight
+    //     });
+    // }
+
     componentDidUnmount(){
         clearInterval(this.interval)
     }
+    
+    // componentWillUnmount() {
+    //     window.removeEventListener('resize', this.updateWindowDimensions);
+    // }
 
     
 

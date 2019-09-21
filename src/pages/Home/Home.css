@@ -97,8 +97,11 @@
     color: rgba(107, 255, 124, 0.26)
 }
 
-#swipe-left {
+.swipe-left {
+    /* float:left; */
+    /* margin-top:2%; */
     display: none;
+    visibility: hidden;
 }
 
 /* 
@@ -162,19 +165,21 @@
         letter-spacing: .2em;
         top: 15%;
         font-size: 13px;
+        margin-left:1px; 
     }
 
     .swipe-left {
+        visibility: visible;
         display: block;
         float:left;
-        margin-top:-33%;
+        margin-top:-32%;
         margin-left:33%;
         font-size:22px;
         margin-right:120px;
         z-index:4;
         transform: perspective(400px) rotateX(40deg);
         transition-property: color;
-        transition-duration: 1.5s;
+        transition-duration: 1.5;
     }
 
 }
