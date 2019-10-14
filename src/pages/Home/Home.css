@@ -188,6 +188,23 @@
 
 @media only screen and (max-width: 445px) {
 
+    .center-card {
+        font-size: 40px;
+        padding: 50%;
+        background: linear-gradient(to top, rgba(122, 130, 164, 0.4), rgb(200, 202, 166, 0.4));
+    }
+
+    .center-card:hover {
+        background: rgb(215, 179, 199, 0.7);
+    }
+
+    .center-scroll {
+        margin-top: 20%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 80%;
+    }
+
     .swipe-left {
         margin-top:-5%;
         font-size:20px;
@@ -196,6 +213,23 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    .center-card {
+        font-size: 38px;
+        padding: 50%;
+        background: linear-gradient(to top, rgba(122, 130, 164, 0.4), rgb(200, 202, 166, 0.4));
+    }
+
+    .center-card:hover {
+        background: rgb(215, 179, 199, 0.7);
+    }
+
+    .center-scroll {
+        margin-top: 20%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 80%;
+    }
 
     .swipe-left {
         margin-top:-25%;
