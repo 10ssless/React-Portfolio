@@ -43,8 +43,8 @@ function Local() {
                         
                         <div className="test-user">
                             <p>>> test user login info:</p>
-                            <p className="test-user-body">user: <span className="langs">username</span></p>
-                            <p className="test-user-body">pswd: <span className="langs">password</span></p>
+                            <p className="test-user-body">user: <span className="langs">test_user</span></p>
+                            <p className="test-user-body">pswd: <span className="langs">test_password</span></p>
                         </div>
                         
                         <a href="https://keep-it-local.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>

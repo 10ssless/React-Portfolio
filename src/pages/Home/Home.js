@@ -39,7 +39,7 @@ class Home extends React.Component {
     }
     
     fadeToggle(){
-        if(this.state.color=="white"){
+        if(this.state.color==="white"){
             this.setState({
                 color:"transparent"
             })
@@ -96,7 +96,8 @@ class Home extends React.Component {
                 </div>
                
 
-                <div className="name zm"><a href="/">Zubin Mulji</a></div>
+                {/* <div className="name zm" style={{transform: `perspective(300px) rotateX(40deg)`}}><a href="/">Zubin Mulji</a></div> */}
+                <div className="name zm" ><a href="/">Zubin Mulji</a></div>
                 <div className="name lam">Full Stack Web Developer</div>
                 <div className="name pm">Made with React®</div>
 
