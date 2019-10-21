@@ -41,7 +41,8 @@ function Sabotage() {
                         <p>Compare your scores with friends on the leaderboard in real-time.</p><br/>
                         
                         <br/>
-                        <a href="https://sabotage-game.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>
+                        <a href="https://sabotage-game.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="app-link">> try out the app &lt;</a>
+                        <a href="https://github.com/10ssless/Sabotage" target="_blank" rel="noopener noreferrer" className="app-link github-link">> see the code &lt;</a>
                          
                     </div>
                 </div>

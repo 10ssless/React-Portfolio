@@ -47,8 +47,11 @@ function Local() {
                             <p className="test-user-body">pswd: <span className="langs">test_password</span></p>
                         </div>
                         
-                        <a href="https://keep-it-local.herokuapp.com/" target="_blank" className="app-link">> click here try out the app</a>
                         <br/>
+                        <div className="links" >
+                            <a href="https://keep-it-local.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="app-link">> try out the app &lt;</a>
+                            <a href="https://github.com/10ssless/Keep-it-local" target="_blank" rel="noopener noreferrer" className="app-link github-link">> see the code &lt;</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,8 @@ function Moodi() {
                         <p> Explore the possibilities and find easter eggs as you listen and relax.</p><br/>
                         
                         <br/><br/>
-                        <a href="https://10ssless.github.io/Project-Moodi/" target="_blank" className="app-link">> click here to try out the app</a>
+                        <a href="https://10ssless.github.io/Project-Moodi/" target="_blank" rel="noopener noreferrer" className="app-link">> try out the app &lt;</a>
+                        <a href="https://github.com/10ssless/Project-Moodi" target="_blank" rel="noopener noreferrer" className="app-link github-link">> see the code &lt;</a>
                     </div>
                 </div>
             </div>
